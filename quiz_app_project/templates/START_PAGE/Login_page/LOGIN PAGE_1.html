@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="{% static 'files/LOGIN_PAGE/LOGIN_PAGE.CSS'%}">
+</head>
+<body class="body" >
+        <h2 class="h2">LOGIN PAGE</h2><br>
+        <h6 class="h6">STUDENT PORTAL</h6>
+        <div class="login">
+            <form id="login" method="post" action="/project/">
+                {% csrf_token %}
+            <label for="Uname"><b>
+                Matric Number:
+            </b>
+            </label>
+            <input class="Username" type="text" name="Uname" id="Uname" placeholder="Username">
+            <span class="error"> {{MatricError}}</span>
+            <br><br>
+            <label><b>
+                Password:
+            </b>
+            </label>
+            <input class="Password" type="Password" name="Pass_word" id="Pass" placeholder="Password">
+            <span class="error"> {{PasswordError}}</span>
+            <br><br>
+            
+            <input class="Log" type="submit" name="log" id="log" value="LOGIN">
+            <br><br>
+            <a href="/project/sign_up"><input class="sign" href="/sign_up/"  type="button" id="sign" value="SIGN UP"></a>
+            <br><br> 
+            <input type="checkbox" id="check", name="check">
+            <span class="span">Remember me</span>
+            <br><br>
+            Forget <a class="a" rel="stylesheet" href="/sign_up/" >Password</a>
+            <br><br>
+            <br><br>
+           </form>
+    </div>
+</body>
+</html>

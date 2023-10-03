@@ -1,0 +1,87 @@
+     * 
+      {box-sizing: border-box;
+        margin: auto;
+        padding: auto;}
+
+        .body{
+            background-image: url(IMAGE\ 2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+
+        .heading {
+            text-align: center;
+            color: black;
+            padding: 20px;
+            }
+        .heading2 {
+            text-align: center;
+            color: whitesmoke;
+            }
+        .name {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 10px;
+            }
+        .level {
+            width: 314px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 10px;
+            }
+        .sign-up {
+            width: 400px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 20px;
+            background: blackwhite;
+            border-radius: 15px;
+            }
+        .Password {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 10px;
+            }
+        .span {
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            }
+        .log {
+            width: 300px;
+            height: 30px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: gold;
+            cursor: pointer;
+            }
+        .log:hover {
+            opacity: 0.8;
+            }
+        .log:active {
+            opacity: 0.5;
+            }
+        .sign {
+            width: 300px;
+            height: 30px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: darkgreen;
+            cursor: pointer;
+            }
+        .sign:hover {
+            opacity: 0.8;  
+            }
+        .sign:active {
+            opacity:0.5;
+            }
